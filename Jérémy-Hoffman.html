@@ -20,10 +20,10 @@
       overflow: hidden;
       text-align: center;
     }
-    .card-header img {
-      max-width: 100%;
-      height: auto;
-      padding: 10px;
+    .card-header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
     }
     .card-body {
       padding: 20px;
@@ -47,6 +47,11 @@
       padding: 8px 0;
       border-bottom: 1px solid #eee;
     }
+    .qr-code img {
+      width: 150px;
+      height: 150px;
+      margin-top: 15px;
+    }
     .footer {
       margin-top: 20px;
       font-size: 12px;
@@ -57,13 +62,13 @@
 <body>
   <div class="card-container">
     <div class="card-header">
-      <img src="https://natale80.github.io/rproclean/logo_rproclean.jpeg" alt="Logo RProClean">
+      <h1>RProClean</h1>
     </div>
     <div class="card-body">
       <h2>Carte Fidélité</h2>
       <div class="member-info">
-        Nom : Collin Floriane<br>
-        N° Membre : 1<br>
+        Nom : Jérémy hoffman<br>
+        N° Membre : 02<br>
         Il reste 9 passages avant niveau supérieur<br>
       </div>
       <ul class="benefits">
@@ -72,11 +77,6 @@
         <li>Après 10 passages, vous passez au niveau supérieur et débloquez de nouveaux avantages !</li>
         <li>Merci de votre fidélité !</li>
       </ul>
-      <div class="footer">
-        Montrez cette carte lors de votre passage chez RProClean.<br>
-        Contact : 0498.21.65.16
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+      <div class="qr-code">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fnatale80.github.io%2Frproclean%2Fflorianecollin.html&qzone=1&margin=0&size=400x400&ecc=L&format=png&download=1"
+
